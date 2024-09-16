@@ -1,0 +1,6 @@
+{
+  "AppSyncApiName": "spotiguysapp",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthModeLastUpdated": "2022-11-22T00:27:13.517Z"
+}

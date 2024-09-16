@@ -1,0 +1,15 @@
+type GroupMembers @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  Member_id: String
+  Member_key: String
+  Groups: Groups @hasOne
+  Member_name: String
+}
+
+type Groups @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  Name: String
+  Owner_key: String
+  Owner_id: String
+}
+ 
